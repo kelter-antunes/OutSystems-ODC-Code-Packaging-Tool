@@ -39,7 +39,7 @@ $projectName = [System.IO.Path]::GetFileNameWithoutExtension($projectFile.Name)
 if (-not $silentMode) {
     Write-Host "Publishing the project..." -ForegroundColor Green
 }
-dotnet publish -c Release > $null
+dotnet publish -c Release -r linux-x64 --self-contained false > $null
 
 # Set the name of the zip file
 $zipFileName = "$projectName.zip"
