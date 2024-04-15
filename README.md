@@ -1,6 +1,9 @@
+
 ## OutSystems Developer Cloud (ODC) Custom Code Packaging Tool
 
 This script helps OutSystems developers to easily publish their custom C# code for use in OutSystems Developer Cloud (ODC) apps. It automates the process of building, packaging, and preparing your custom code for upload to the ODC Portal.
+
+![demo](https://raw.githubusercontent.com/kelter-antunes/OutSystems-ODC-Code-Packaging-Tool/main/img/example.gif)
 
 ### How to Use
 
